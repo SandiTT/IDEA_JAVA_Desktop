@@ -254,7 +254,7 @@
           <IdeaActionID>Debug</IdeaActionID>
           <ShortCut>'Shift+F9'</ShortCut>
           <Description>Debug 'portal'</Description>
-          <Count>330</Count>
+          <Count>331</Count>
         </Item>
       </Statistic>
       <Statistic Action="Debug 'push'">
@@ -270,7 +270,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'Ctrl+B' or 'Ctrl+Button1 Click' or 'Button2 Click'</ShortCut>
           <Description>Declaration</Description>
-          <Count>8502</Count>
+          <Count>8504</Count>
         </Item>
       </Statistic>
       <Statistic Action="Delete Row">
