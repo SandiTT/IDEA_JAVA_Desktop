@@ -1,2 +1,0 @@
-# IdeaProperties
-IdeaProperties
