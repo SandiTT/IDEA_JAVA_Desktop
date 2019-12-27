@@ -1,0 +1,212 @@
+<templateSet group="gqj">
+  <template name="ns" value="String[] $1$ = new String[$2$];" description="字符串数组" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="ni" value="int[] $1$ = new int[$2$];" description="int数组" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="pv" value="public void $1$($2$){&#10;    $3$&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="3" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="%" value="&lt;%$END$%&gt;" description="jsp" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JSP" value="true" />
+    </context>
+  </template>
+  <template name="op" value="out.print($end$);" description="out.print()" toReformat="false" toShortenFQNames="true">
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JSP" value="true" />
+    </context>
+  </template>
+  <template name="opl" value="out.println($end$);" description="out.println();" toReformat="false" toShortenFQNames="true">
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JSP" value="true" />
+    </context>
+  </template>
+  <template name="scpt" value="&lt;script type=&quot;text/javascript&quot;&gt;$end$&lt;/script&gt;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="syso" value="System.out.println($end$)" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="pi" value="private Integer " description="private int" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="ps" value="private String " description="private String" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="rr" value="request.setCharacterEncoding(&quot;utf-8&quot;);&#10;response.setCharacterEncoding(&quot;utf-8&quot;);" description="set CharacterEncoding(request,request)" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JSP" value="true" />
+    </context>
+  </template>
+  <template name="dgi" value="document.getElementById($end$)" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="dgt" value="document.getElementsByTagName($end$)&#10;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="dg" value="document.getELementByName($end$)" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="jsc" value="&lt;script type=&quot;text/javascript&quot; src=&quot;js/jquery-1.8.3.min.js&quot;&gt;&lt;/script&gt;&#10;" description="import jquery" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JSP" value="true" />
+    </context>
+  </template>
+  <template name="dorea" value="$(document).ready(function (){&#10;    $END$&#10;})" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSP" value="true" />
+    </context>
+  </template>
+  <template name="style" value="&lt;style type=&quot;text/css&quot;&gt;&#10;$end$&#10;&lt;/style&gt;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="jscss" value=" &lt;script type=&quot;text/javascript&quot; src=&quot;../js/vue.js&quot;&gt;&lt;/script&gt;&#10;    &lt;script type=&quot;text/javascript&quot; src=&quot;../js/jquery-1.12.4.js&quot;&gt;&lt;/script&gt;&#10;    &lt;script type=&quot;text/javascript&quot; src=&quot;../js/bootstrap.js&quot;&gt;&lt;/script&gt;&#10;    &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;../css/bootstrap.min.css&quot; /&gt;" description="自动导入js、css" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="dubbo" value="        &lt;dependency&gt;&#10;            &lt;groupId&gt;cn&lt;/groupId&gt;&#10;            &lt;artifactId&gt;common&lt;/artifactId&gt;&#10;            &lt;version&gt;0.0.1-SNAPSHOT&lt;/version&gt;&#10;        &lt;/dependency&gt;&#10;        &lt;!-- https://mvnrepository.com/artifact/com.github.pagehelper/pagehelper-spring-boot-starter --&gt;&#10;        &lt;dependency&gt;&#10;            &lt;groupId&gt;com.github.pagehelper&lt;/groupId&gt;&#10;            &lt;artifactId&gt;pagehelper-spring-boot-starter&lt;/artifactId&gt;&#10;            &lt;version&gt;1.2.5&lt;/version&gt;&#10;        &lt;/dependency&gt;&#10;        &lt;dependency&gt;&#10;            &lt;groupId&gt;mysql&lt;/groupId&gt;&#10;            &lt;artifactId&gt;mysql-connector-java&lt;/artifactId&gt;&#10;            &lt;version&gt;5.1.25&lt;/version&gt;&#10;        &lt;/dependency&gt;&#10;        &lt;dependency&gt;&#10;            &lt;groupId&gt;com.alibaba&lt;/groupId&gt;&#10;            &lt;artifactId&gt;dubbo&lt;/artifactId&gt;&#10;            &lt;version&gt;2.5.3&lt;/version&gt;&#10;            &lt;exclusions&gt;&#10;                &lt;exclusion&gt;&#10;                    &lt;artifactId&gt;spring&lt;/artifactId&gt;&#10;                    &lt;groupId&gt;org.springframework&lt;/groupId&gt;&#10;                &lt;/exclusion&gt;&#10;            &lt;/exclusions&gt;&#10;        &lt;/dependency&gt;&#10;        &lt;!-- https://mvnrepository.com/artifact/org.apache.zookeeper/zookeeper --&gt;&#10;        &lt;dependency&gt;&#10;            &lt;groupId&gt;org.apache.zookeeper&lt;/groupId&gt;&#10;            &lt;artifactId&gt;zookeeper&lt;/artifactId&gt;&#10;            &lt;version&gt;3.4.10&lt;/version&gt;&#10;            &lt;exclusions&gt;&#10;                &lt;exclusion&gt;&#10;                    &lt;artifactId&gt;slf4j-log4j12&lt;/artifactId&gt;&#10;                    &lt;groupId&gt;org.slf4j&lt;/groupId&gt;&#10;                &lt;/exclusion&gt;&#10;            &lt;/exclusions&gt;&#10;        &lt;/dependency&gt;&#10;        &lt;!-- https://mvnrepository.com/artifact/com.github.sgroschupf/zkclient --&gt;&#10;        &lt;dependency&gt;&#10;            &lt;groupId&gt;com.github.sgroschupf&lt;/groupId&gt;&#10;            &lt;artifactId&gt;zkclient&lt;/artifactId&gt;&#10;            &lt;version&gt;0.1&lt;/version&gt;&#10;        &lt;/dependency&gt;" description="consumer and provide" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="dateStock" value="&lt;div class=&quot;form-group&quot;&gt;&lt;label&gt;选择日期+时间：&lt;/label&gt;            &lt;!--指定 date标记--&gt;&#10;    &lt;div class='input-group date' id='datetimepicker2'&gt;&#10;        &lt;input type='text' class=&quot;form-control&quot;/&gt;&#10;        &lt;span class=&quot;input-group-addon&quot;&gt;&#10;            &lt;span class=&quot;glyphicon glyphicon-calendar&quot;&gt;&lt;/span&gt;&#10;        &lt;/span&gt;&#10;    &lt;/div&gt;&#10;&lt;/div&gt;&#10;&lt;script type=&quot;text/javascript&quot;&gt;&#10;    $(function () {&#10;        $('#datetimepicker2').datetimepicker({format: 'YYYY-MM-DD hh:mm:ss', locale: moment.locale('zh-cn')});&#10;    });&#10;&#10;&lt;/script&gt;" description="日期插件" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="btform" value="&lt;div class=&quot;col-md-6 col-md-push-4&quot;&gt;&#10;            &lt;form class=&quot;form-inline&quot; style=&quot;text-align: center&quot; id=&quot;flightForm&quot;&gt;&#10;                &lt;div class=&quot;form-group&quot;&gt;&#10;                    &lt;label&gt;航班编号&lt;/label&gt;&#10;                    &lt;input type=&quot;text&quot; v-model=&quot;flightNo&quot; class=&quot;form-control&quot; @change=&quot;justify&quot;&gt;&#10;                    &lt;span id=&quot;notice&quot; class=&quot;help-block&quot; hidden&gt;&lt;/span&gt;&#10;                &lt;/div&gt;&#10;            &lt;/form&gt;&#10;        &lt;/div&gt;" description="bootstrapform表单" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="pageh" value="&lt;!-- https://mvnrepository.com/artifact/com.github.pagehelper/pagehelper-spring-boot-starter --&gt;&#10;        &lt;dependency&gt;&#10;            &lt;groupId&gt;com.github.pagehelper&lt;/groupId&gt;&#10;            &lt;artifactId&gt;pagehelper-spring-boot-starter&lt;/artifactId&gt;&#10;            &lt;version&gt;1.2.5&lt;/version&gt;&#10;        &lt;/dependency&gt;" description="pageHelper" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="ccn" value="@Data&#10;@NoArgsConstructor" description="无参构造" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="cca" value="@Data&#10;@AllArgsConstructor" description="有参构造" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="cqd" value="@SpringBootApplication(exclude = DataSourceAutoConfiguration.class)&#10;@ImportResource(value = {&quot;classpath:dubbox-consumer.xml&quot;})" description="cunsumer启动类" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="pqd" value="@SpringBootApplication&#10;@ImportResource(value = {&quot;classpath:dubbox-provider.xml&quot;})&#10;@MapperScan(&quot;cn.provider.mapper&quot;)" description="provider启动类" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="gs" value="&lt;dependency&gt;&#10;            &lt;groupId&gt;org.projectlombok&lt;/groupId&gt;&#10;            &lt;artifactId&gt;lombok&lt;/artifactId&gt;&#10;            &lt;version&gt;1.16.6&lt;/version&gt;&#10;        &lt;/dependency&gt;" description="自动为实体类添加getset等方法的包" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="congs" value="@Data&#10;@NoArgsConstructor" description="getset无参构造" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="yddddd" value="    &lt;resultMap id=&quot;userAndRole&quot; type=&quot;User&quot;&gt;&#10;        &lt;!--配置pojo中 --&gt;&#10;        &lt;!--id 指定查询列唯一标示,若多列组成则配置多个id&#10;            column:唯一标示,property:指定映射值pojo的位置&#10;        --&gt;&#10;        &lt;id column=&quot;id&quot; property=&quot;id&quot;&gt;&lt;/id&gt;&#10;        &lt;result column=&quot;userCode&quot; property=&quot;userCode&quot;&gt;&lt;/result&gt;&#10;        &lt;result column=&quot;userName&quot; property=&quot;userName&quot;&gt;&lt;/result&gt;&#10;        &lt;!--配置pojo中包含另一pojo --&gt;&#10;        &lt;!--property:映射至的属性 javaType:pojo类型--&gt;&#10;        &lt;association property=&quot;role&quot; javaType=&quot;Role&quot;&gt;&#10;            &lt;id column=&quot;roleId&quot; property=&quot;id&quot;&gt;&lt;/id&gt;&#10;            &lt;result column=&quot;roleCode&quot; property=&quot;roleCode&quot;&gt;&lt;/result&gt;&#10;&#10;        &lt;/association&gt;&#10;    &lt;/resultMap&gt;&#10;&#9; &lt;!--配置pojo中包含另一list --&gt;&#10;    &lt;resultMap id=&quot;UserAndAddress&quot; type=&quot;User&quot;&gt;&#10;        &lt;id column=&quot;id&quot; property=&quot;id&quot;&gt;&lt;/id&gt;&#10;        &lt;result column=&quot;userCode&quot; property=&quot;userCode&quot;&gt;&lt;/result&gt;&#10;        &lt;collection property=&quot;address&quot; ofType=&quot;Address&quot;&gt;&#10;            &lt;id column=&quot;addressId&quot; property=&quot;id&quot;&gt;&lt;/id&gt;&#10;            &lt;result column=&quot;addressDesc&quot; property=&quot;addressDesc&quot;&gt;&lt;/result&gt;&#10;        &lt;/collection&gt;&#10;    &lt;/resultMap&gt;&#10;    &lt;!--&lt;select id=&quot;getUserAndRoleById&quot; parameterType=&quot;java.lang.Integer&quot; resultMap=&quot;userAndRole&quot;&gt;--&gt;&#10;      &lt;!--select su.id, su.userCode, su.userName ,sr.id roleId, sr.roleCode, sr.roleName, sr.createdBy, sr.creationDate, sr.modifyBy, sr.modifyDate from smbms_user su left join smbms_role sr on su.userRole=sr.id where su.id=#{id}--&gt;&#10;    &lt;!--&lt;/select&gt;--&gt;&#10;&#10;    &lt;select id=&quot;getUserAndRoleById&quot; parameterType=&quot;java.lang.Integer&quot; resultMap=&quot;UserAndAddress&quot;&gt;&#10;        select su.id, su.userCode, su.userName,sa.id addressId ,sa.addressDesc  from smbms_user su inner join smbms_address sa  on su.id=sa.userid where  su.id=#{id}&#10;    &lt;/select&gt;&#10;" description="一对多多对多" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="clog" value="console.log($1$)" description="console.log()" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="List&lt;&gt;" value="List&lt;$end$&gt; list = new ArrayList&lt;&gt;();" description="list集合" toReformat="false" toShortenFQNames="true">
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="ilnl" value="if(null != $1$ &amp;&amp; !$1$.isEmpty()){&#10;    $END$&#10;}" description="if list is not null" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="inl" value="if(null != $1$){&#10;    $END$&#10;}" description="if normail parameter not null" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="isnl" value="if(StringUtils.isNotEmpty($1$)){&#10;    $END$&#10;}" description="if not null by stringUtils" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="iin" value="if(StringUtils.isEmpty($1$)){&#10;    $END$&#10;}" description="if is null by stringUtils" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="nls" value="List&lt;$1$&gt; $2$ = new ArrayList&lt;&gt;();&#10;$END$" description="new ArrayList" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>

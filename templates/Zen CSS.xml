@@ -1,0 +1,5 @@
+<templateSet group="Zen CSS">
+  <template name="bg" value="background:#199 237 204;" description="background:...;" toReformat="true" toShortenFQNames="true">
+    <context />
+  </template>
+</templateSet>

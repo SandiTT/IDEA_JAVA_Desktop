@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>购买界面</title>
+    <script type="text/javascript" src="../js/vue.js"></script>
+    <script type="text/javascript" src="../js/jquery-1.12.4.js"></script>
+    <script type="text/javascript" src="../js/bootstrap.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css"/>
+    <script type="text/javascript" src="../js/util.js"></script>
+
+</head>
+<body style="text-align: center">
+    <div id="app1" class="container">
+        <div class="row">
+            <h1>购买商品</h1>
+            <table class="table" border="1px solid grey">
+                <tr>
+                    <td>商品编号</td>
+                    <td>{{detail.id}}</td>
+                </tr>
+                <tr>
+                    <td>商品名称</td>
+                    <td>{{detail.name}}</td>
+                </tr>
+                <tr>
+                    <td>商品分类</td>
+                    <td>{{detail.sort.name}}</td>
+                </tr>
+                <tr>
+                    <td>单价(元)</td>
+                    <td>{{detail.price}}</td>
+                </tr>
+                <tr>
+                    <td>剩余数量</td>
+                    <td>{{detail.remaining}}</td>
+                </tr>
+                <tr>
+                    <td>购买数量</td>
+                    <td><input type="tel" @input="handleInput($event)" v-model.number="num"></td>
+                </tr>
+                <tr>
+                    <td>总金额(元)</td>
+                    <td>{{totalMoney}}</td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <button @click="purchase">购买</button>
+                        <button  onclick="javascript:history.back(-1);">返回</button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+<script type="text/javascript">
+    (function () {
+        var app = new Vue({
+            el: '#app1',
+            data: {
+                detail: [],
+                num: 0,
+            },
+            computed:{
+                totalMoney:function(){
+                    return (this.num*this.detail.price).toFixed(2);
+                }
+            },
+            created:function () {
+                $.getJSON("/getDetailById",{"id":getQueryString("id")},function (detail) {
+                    app.detail = detail;
+                })
+            },
+            methods:{
+                purchase:function () {
+                    if(this.detail.remaining<=0){
+                        alert("商品数量不足");
+                    }else if(this.detail.remaining<this.num){
+                        alert("商品数量不够，请减少购买数")
+                    }else{
+                        $.get("/updateDetail",{"id":this.detail.id,"num":this.num},function (result) {
+                            console.log(result);
+                            if(result==1) {
+                                window.location="/html/show.html?param=success"
+                            }
+                        })
+                    }
+                },
+                handleInput:function (e) {
+                    this.num = e.target.value.replace(/[^\d]/g, '');
+                }
+            },
+            watch:{
+                searcBarCode:function(){
+                    this.searcBarCode=this.searcBarCode.replace(/[^\d]/g,'');
+                },
+            }
+        });
+        getQueryString("id");
+    })()
+</script>
+</html>
