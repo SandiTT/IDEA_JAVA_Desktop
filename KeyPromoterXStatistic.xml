@@ -246,7 +246,7 @@
           <IdeaActionID>Debug</IdeaActionID>
           <ShortCut>'Shift+F9'</ShortCut>
           <Description>Debug 'matrix'</Description>
-          <Count>393</Count>
+          <Count>394</Count>
         </Item>
       </Statistic>
       <Statistic Action="Debug 'portal'">
@@ -801,6 +801,14 @@
           <Count>9</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Save All">
+        <Item>
+          <IdeaActionID>SaveAll</IdeaActionID>
+          <ShortCut>'Ctrl+S'</ShortCut>
+          <Description>Save All</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Set NULL">
         <Item>
           <IdeaActionID>Console.TableResult.SetNull</IdeaActionID>
@@ -1054,7 +1062,7 @@
           <IdeaActionID>DatabaseView.SynchronizeAction</IdeaActionID>
           <ShortCut>'Ctrl+Alt+Y'</ShortCut>
           <Description>Synchronize</Description>
-          <Count>38</Count>
+          <Count>39</Count>
         </Item>
       </Statistic>
       <Statistic Action="TODO">
