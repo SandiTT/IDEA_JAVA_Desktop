@@ -1022,7 +1022,7 @@
           <IdeaActionID>Stop</IdeaActionID>
           <ShortCut>'Ctrl+F2'</ShortCut>
           <Description>Stop 'portal'</Description>
-          <Count>529</Count>
+          <Count>530</Count>
         </Item>
       </Statistic>
       <Statistic Action="Stop 'push'">
