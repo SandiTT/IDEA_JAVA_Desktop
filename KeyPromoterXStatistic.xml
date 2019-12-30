@@ -254,7 +254,7 @@
           <IdeaActionID>Debug</IdeaActionID>
           <ShortCut>'Shift+F9'</ShortCut>
           <Description>Debug 'portal'</Description>
-          <Count>337</Count>
+          <Count>339</Count>
         </Item>
       </Statistic>
       <Statistic Action="Debug 'push'">
@@ -270,7 +270,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'Ctrl+B' or 'Ctrl+Button1 Click' or 'Button2 Click'</ShortCut>
           <Description>Declaration</Description>
-          <Count>8595</Count>
+          <Count>8606</Count>
         </Item>
       </Statistic>
       <Statistic Action="Delete Row">
@@ -390,7 +390,7 @@
           <IdeaActionID>ForceRunToCursor</IdeaActionID>
           <ShortCut>'Ctrl+Alt+F9'</ShortCut>
           <Description>Force Run to Cursor</Description>
-          <Count>1</Count>
+          <Count>2</Count>
         </Item>
       </Statistic>
       <Statistic Action="Force Step Into">
@@ -894,7 +894,7 @@
           <IdeaActionID>StepOut</IdeaActionID>
           <ShortCut>'Shift+F8'</ShortCut>
           <Description>Step Out</Description>
-          <Count>260</Count>
+          <Count>262</Count>
         </Item>
       </Statistic>
       <Statistic Action="Step Over">
@@ -1022,7 +1022,7 @@
           <IdeaActionID>Stop</IdeaActionID>
           <ShortCut>'Ctrl+F2'</ShortCut>
           <Description>Stop 'portal'</Description>
-          <Count>527</Count>
+          <Count>528</Count>
         </Item>
       </Statistic>
       <Statistic Action="Stop 'push'">
@@ -1086,7 +1086,7 @@
           <IdeaActionID>ToggleLineBreakpoint</IdeaActionID>
           <ShortCut>'Ctrl+F8'</ShortCut>
           <Description>Toggle Line Breakpoint</Description>
-          <Count>2850</Count>
+          <Count>2882</Count>
         </Item>
       </Statistic>
       <Statistic Action="Type Declaration">
