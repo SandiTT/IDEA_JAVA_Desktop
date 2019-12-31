@@ -270,7 +270,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'Ctrl+B' or 'Ctrl+Button1 Click' or 'Button2 Click'</ShortCut>
           <Description>Declaration</Description>
-          <Count>8616</Count>
+          <Count>8623</Count>
         </Item>
       </Statistic>
       <Statistic Action="Delete Row">
@@ -1022,7 +1022,7 @@
           <IdeaActionID>Stop</IdeaActionID>
           <ShortCut>'Ctrl+F2'</ShortCut>
           <Description>Stop 'portal'</Description>
-          <Count>531</Count>
+          <Count>532</Count>
         </Item>
       </Statistic>
       <Statistic Action="Stop 'push'">
