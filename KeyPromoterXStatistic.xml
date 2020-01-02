@@ -254,7 +254,7 @@
           <IdeaActionID>Debug</IdeaActionID>
           <ShortCut>'Shift+F9'</ShortCut>
           <Description>Debug 'portal'</Description>
-          <Count>342</Count>
+          <Count>343</Count>
         </Item>
       </Statistic>
       <Statistic Action="Debug 'push'">
@@ -1022,7 +1022,7 @@
           <IdeaActionID>Stop</IdeaActionID>
           <ShortCut>'Ctrl+F2'</ShortCut>
           <Description>Stop 'portal'</Description>
-          <Count>532</Count>
+          <Count>533</Count>
         </Item>
       </Statistic>
       <Statistic Action="Stop 'push'">
