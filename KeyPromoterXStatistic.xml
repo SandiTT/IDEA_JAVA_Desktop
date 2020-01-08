@@ -270,7 +270,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'Ctrl+B' or 'Ctrl+Button1 Click' or 'Button2 Click'</ShortCut>
           <Description>Declaration</Description>
-          <Count>8778</Count>
+          <Count>8780</Count>
         </Item>
       </Statistic>
       <Statistic Action="Delete Row">
@@ -662,7 +662,7 @@
           <IdeaActionID>ChangesView.Revert</IdeaActionID>
           <ShortCut>'Ctrl+Alt+Z'</ShortCut>
           <Description>Revert...</Description>
-          <Count>113</Count>
+          <Count>114</Count>
         </Item>
       </Statistic>
       <Statistic Action="Run">
