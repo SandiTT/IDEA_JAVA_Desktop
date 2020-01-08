@@ -270,7 +270,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'Ctrl+B' or 'Ctrl+Button1 Click' or 'Button2 Click'</ShortCut>
           <Description>Declaration</Description>
-          <Count>8784</Count>
+          <Count>8785</Count>
         </Item>
       </Statistic>
       <Statistic Action="Delete Row">
@@ -662,7 +662,7 @@
           <IdeaActionID>ChangesView.Revert</IdeaActionID>
           <ShortCut>'Ctrl+Alt+Z'</ShortCut>
           <Description>Revert...</Description>
-          <Count>114</Count>
+          <Count>115</Count>
         </Item>
       </Statistic>
       <Statistic Action="Run">
@@ -1030,7 +1030,7 @@
           <IdeaActionID>Stop</IdeaActionID>
           <ShortCut>'Ctrl+F2'</ShortCut>
           <Description>Stop 'portal'</Description>
-          <Count>544</Count>
+          <Count>545</Count>
         </Item>
       </Statistic>
       <Statistic Action="Stop 'push'">
@@ -1126,7 +1126,7 @@
           <IdeaActionID>ViewBreakpoints</IdeaActionID>
           <ShortCut>'Ctrl+Shift+F8'</ShortCut>
           <Description>View Breakpoints...</Description>
-          <Count>214</Count>
+          <Count>215</Count>
         </Item>
       </Statistic>
       <Statistic Action="Zoom In">
