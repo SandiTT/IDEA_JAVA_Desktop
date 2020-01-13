@@ -150,7 +150,7 @@
           <IdeaActionID>ActivateDebugToolWindow</IdeaActionID>
           <ShortCut>'Alt+5'</ShortCut>
           <Description>Debug</Description>
-          <Count>549</Count>
+          <Count>550</Count>
         </Item>
       </Statistic>
       <Statistic Action="Debug 'Application (1)'">
@@ -246,7 +246,7 @@
           <IdeaActionID>Debug</IdeaActionID>
           <ShortCut>'Shift+F9'</ShortCut>
           <Description>Debug 'matrix'</Description>
-          <Count>400</Count>
+          <Count>401</Count>
         </Item>
       </Statistic>
       <Statistic Action="Debug 'portal'">
@@ -270,7 +270,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'Ctrl+B' or 'Ctrl+Button1 Click' or 'Button2 Click'</ShortCut>
           <Description>Declaration</Description>
-          <Count>8857</Count>
+          <Count>8861</Count>
         </Item>
       </Statistic>
       <Statistic Action="Delete Row">
@@ -1030,7 +1030,7 @@
           <IdeaActionID>Stop</IdeaActionID>
           <ShortCut>'Ctrl+F2'</ShortCut>
           <Description>Stop 'portal'</Description>
-          <Count>553</Count>
+          <Count>554</Count>
         </Item>
       </Statistic>
       <Statistic Action="Stop 'push'">
