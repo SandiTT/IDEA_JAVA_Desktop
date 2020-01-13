@@ -246,7 +246,7 @@
           <IdeaActionID>Debug</IdeaActionID>
           <ShortCut>'Shift+F9'</ShortCut>
           <Description>Debug 'matrix'</Description>
-          <Count>404</Count>
+          <Count>405</Count>
         </Item>
       </Statistic>
       <Statistic Action="Debug 'portal'">
@@ -1022,7 +1022,7 @@
           <IdeaActionID>Stop</IdeaActionID>
           <ShortCut>'Ctrl+F2'</ShortCut>
           <Description>Stop 'matrix'</Description>
-          <Count>458</Count>
+          <Count>459</Count>
         </Item>
       </Statistic>
       <Statistic Action="Stop 'portal'">
