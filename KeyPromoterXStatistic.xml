@@ -246,7 +246,7 @@
           <IdeaActionID>Debug</IdeaActionID>
           <ShortCut>'Shift+F9'</ShortCut>
           <Description>Debug 'matrix'</Description>
-          <Count>412</Count>
+          <Count>413</Count>
         </Item>
       </Statistic>
       <Statistic Action="Debug 'portal'">
@@ -270,7 +270,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'Ctrl+B' or 'Ctrl+Button1 Click' or 'Button2 Click'</ShortCut>
           <Description>Declaration</Description>
-          <Count>9054</Count>
+          <Count>9069</Count>
         </Item>
       </Statistic>
       <Statistic Action="Delete Row">
@@ -1022,7 +1022,7 @@
           <IdeaActionID>Stop</IdeaActionID>
           <ShortCut>'Ctrl+F2'</ShortCut>
           <Description>Stop 'matrix'</Description>
-          <Count>464</Count>
+          <Count>465</Count>
         </Item>
       </Statistic>
       <Statistic Action="Stop 'portal'">
