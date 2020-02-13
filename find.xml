@@ -7,16 +7,17 @@
     <option name="REGULAR_EXPRESSIONS" value="true" />
     <option name="SHOW_RESULTS_IN_SEPARATE_VIEW" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.html,*.js" />
     <mask>*.properties</mask>
     <mask>*.jsp</mask>
     <mask>*.xml</mask>
     <mask>*.as</mask>
     <mask>*.mxml</mask>
     <mask>*.html</mask>
-    <mask>*.html,*.js</mask>
     <mask>*.html,*.js,*.css</mask>
     <mask>*.js</mask>
     <mask>*.css</mask>
     <mask>*.java</mask>
+    <mask>*.html,*.js</mask>
   </component>
 </application>
